@@ -1,0 +1,58 @@
+<!--div id="first_load">
+  <img class="logo" src="img/logo_bw_t.png">
+       <p>
+  <i class="fa fa-2x fa-circle-o-notch fa-spin"></i></p>
+</div-->
+<div class="hide-for-small-down" id="main_container">
+
+  <div class="hide-for-small-down" id="main_content">
+
+    <h1 msg="views.main.h1"></h1>
+
+    <h2 msg="views.main.h2"></h2>
+
+
+    <div class="super_icon">
+    </div>
+  </div>
+  <div id="main_content_footer" class="hidden-for-small-down">
+    <div class="row">
+      <div class="medium-12 columns">
+        <h1 msg="views.services.h1">
+        </h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="medium-3 large-3 columns">
+        @@include('technogi_panel.html',{
+          "section":"consulting",
+          "icon":"group"
+        })
+      </div>
+      <div class="medium-3 large-3 columns">
+        @@include('technogi_panel.html',{
+        "section":"software_development",
+        "icon":"laptop"
+        })
+      </div>
+      <div class="medium-3 large-3 columns">
+        @@include('technogi_panel.html',{
+        "section":"cloud",
+        "icon":"cloud"
+        })
+      </div>
+      <div class="medium-3 large-3 columns">
+        @@include('technogi_panel.html',{
+        "section":"project_shaping",
+        "icon":"th-large"
+        })
+      </div>
+    </div>
+    <div class="row">
+      <div class="medium-12 columns">
+        <h2 msg="views.main.msg">
+        </h2>
+      </div>
+    </div>
+  </div>
+</div>
